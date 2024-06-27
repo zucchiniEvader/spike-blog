@@ -1,7 +1,7 @@
 ---
 page: true
 title: 关于
-aside: false
+sidebar: false
 ---
 
 ## 关于我

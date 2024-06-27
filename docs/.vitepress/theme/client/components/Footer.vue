@@ -1,7 +1,8 @@
 <template>
   <div class="footer">
     <p>
-      Copyright © 2015 - {{ currentYear }} Spike
+      Copyright © 2015 - {{ currentYear }} Spike | <a href="https://github.com/hellodigua/blog-template">Blog
+        Template</a>
     </p>
   </div>
 </template>
@@ -17,5 +18,9 @@ const currentYear = new Date().getFullYear();
     text-align: center;
     font-size: 0.8rem;
   }
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 </style>

@@ -47,7 +47,7 @@ async function config() {
       nav: [
         { text: "首页", link: "/" },
         // { text: '归档', link: '/pages/archives' },
-        { text: "关于", link: "/about" },
+        { text: "关于", link: "/pages/about" },
         // { text: "友链", link: "/pages/links" },
       ],
       socialLinks: [
