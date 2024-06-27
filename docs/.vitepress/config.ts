@@ -1,11 +1,11 @@
 import { defineConfigWithTheme } from "vitepress";
 import { getPosts } from "./theme/utils";
-import { RssPlugin } from "vitepress-plugin-rss";
+// import { RssPlugin } from "vitepress-plugin-rss";
 
 const base = {
-  title: "博客模板",
-  description: "这里是描述",
-  baseUrl: "https://blog-tempalte.com",
+  title: "Spike's Blog",
+  description: "Spike的个人博客，记录技术、生活、读书、随笔等内容。",
+  baseUrl: "https://blog.fixfishbone.com",
 };
 
 async function config() {
@@ -15,13 +15,13 @@ async function config() {
     outDir: "dist",
     vite: {
       plugins: [
-        RssPlugin({
-          title: base.title,
-          description: base.description,
-          baseUrl: base.baseUrl,
-          copyright: "Copyright (c) 2024-present, Demo",
-          filter: (post) => !post.frontmatter.page,
-        }),
+        // RssPlugin({
+        //   title: base.title,
+        //   description: base.description,
+        //   baseUrl: base.baseUrl,
+        //   copyright: "Copyright (c) 2024-present, Demo",
+        //   filter: (post) => !post.frontmatter.page,
+        // }),
       ],
     },
     head: [
@@ -48,12 +48,12 @@ async function config() {
         { text: "首页", link: "/" },
         // { text: '归档', link: '/pages/archives' },
         { text: "关于", link: "/pages/about" },
-        { text: "友链", link: "/pages/links" },
+        // { text: "友链", link: "/pages/links" },
       ],
       socialLinks: [
         {
           icon: "github",
-          link: "https://github.com/hellodigua/blog-template",
+          link: "https://github.com/aholeye",
         },
       ],
       posts: await getPosts("./"),

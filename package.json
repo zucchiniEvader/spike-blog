@@ -1,7 +1,7 @@
 {
-  "name": "blog-template",
+  "name": "spike-blog",
   "version": "1.0.0",
-  "description": "Demo的博客",
+  "description": "Spike's blog",
   "main": "index.js",
   "type": "module",
   "scripts": {
