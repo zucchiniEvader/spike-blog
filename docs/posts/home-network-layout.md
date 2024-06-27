@@ -77,7 +77,6 @@ VLAN是一种虚拟局域网技术，可以将一个物理局域网划分为多�
 我的光猫是创维SK-D747，我直接使用超级密码登录后台，然后进行配置。
 1. 重新分配Internet连接，找到链接名称中带有INTERNET的，记住这个连接使用的VLAN ID，这个ID就是你的上行VLAN ID，我的是4031
 ![INTERNET链接](/imgs/internet-vlan-id.png)
-
 随后删除该连接，重新创建新连接，模式选择桥模式，业务模式选择INTERNET，绑定端口选择lan1，vlan模式选择改写(tag)，vlan id填写记录的上行VLAN ID，然后保存
 ![INTERNET vlan4031](/imgs/internet-vlan-4031.png)
 
