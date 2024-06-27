@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <p>
-      Copyright © 2015 - {{ currentYear }} Spike | 访问统计：<span id="busuanzi_value_site_pv"></span>
+      Copyright © 2015 - {{ currentYear }} Spike
     </p>
   </div>
 </template>

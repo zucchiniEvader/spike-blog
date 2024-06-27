@@ -4,7 +4,7 @@
       <h1 v-if="isPost" class="title">{{ pageData.title }}</h1>
       <p v-if="isPost">
         <span class="meta">发表于：{{ dateStr }}</span>
-        <span class="meta">阅读量：<span id="busuanzi_value_page_pv"></span> </span>
+        <!-- <span class="meta">阅读量：<span id="busuanzi_value_page_pv"></span> </span> -->
       </p>
     </template>
     <template #doc-after>
