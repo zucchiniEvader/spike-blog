@@ -118,3 +118,6 @@ VLAN是一种虚拟局域网技术，可以将一个物理局域网划分为多�
 关于光猫设置vlan的链接：
 - [联通光猫 VLAN实现单线复用 叠加 WAN拨号+IPTV + AP覆盖](https://post.smzdm.com/p/andr0p7p/)
 - [光纤入户光猫改桥接+内网转发IPTV=任意设备看电视直播](https://blog.friskit.me/2020/05/31/bjunicom-network.html)
+
+openwrt镜像链接：
+[openwrt.ai](https://openwrt.ai)
