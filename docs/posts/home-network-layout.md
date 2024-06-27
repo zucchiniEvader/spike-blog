@@ -1,5 +1,5 @@
 ---
-title: "家庭网络布局搭建"
+title: "家庭网络布局搭建（VLAN & openwrt）"
 date: '2024-06-25 22:05:11'
 summary: "Home Network Layout Guide"
 ---
